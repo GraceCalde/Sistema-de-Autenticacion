@@ -1,0 +1,22 @@
+info:
+  name: Ruta privada con Bearer Token
+  type: http
+  seq: 6
+
+http:
+  method: GET
+  url: http://localhost:3000/api/auth/private
+  body:
+    type: json
+    data: |-
+      {"email": "user02@gmail.com", 
+       "password": "password1234"}
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImVtYWlsIjoidXNlcjAyQGdtYWlsLmNvbSIsImlhdCI6MTc4MTYwNTQxOSwiZXhwIjoxNzgxNjA5MDE5fQ.HRvKJMQF4_lbJaPkiBJMToPvVx52m_Ft9PNN-WzS_vI
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
