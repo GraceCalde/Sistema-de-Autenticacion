@@ -7,7 +7,7 @@ Este es un microservicio de autenticación robusto y escalable desarrollado con 
 ## 📹 Video Explicativo del Proyecto
 Adjunto la explicación del funcionamiento del flujo de login y la estructura del código haciendo clic en la miniatura o en el enlace de abajo:
 
-[![Ver Video Explicativo](https://www.youtube.com/watch?v=2BUKjH_eq0k)
+[![Ver Video Explicativo](https://img.youtube.com/vi/2BUKjH_eq0k/maxresdefault.jpg)](https://www.youtube.com/watch?v=2BUKjH_eq0k)
 
 
 
